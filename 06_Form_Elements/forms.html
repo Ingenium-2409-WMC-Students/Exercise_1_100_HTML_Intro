@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form elements</title>
+</head>
+<body>
+<div>
+    <h1>Form elements</h1>
+    <form autocomplete="on">
+        <div>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName">
+        </div>
+
+        <div>
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName">
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </div>
+
+        <div>
+            <label for="age">Age:</label>
+            <input type="number" id="age" min="0" max="99" name="age">
+        </div>
+
+        <div>
+            <label for="description">Description:</label>
+            <textarea id="description" rows="10" cols="30" name="description">
+            </textarea>
+        </div>
+
+        <div>
+            <input type="checkbox" name="consentAGBs" id="agb"><label for="agb">Accept terms.</label><br>
+            <input type="checkbox" name="consentNewsletter" id="newsletter"><label for="newsletter">Subscribe to newsletter.</label>
+        </div>
+
+        <div>
+            <button type="submit">Register</button>
+        </div>
+
+    </form>
+
+</div>
+</body>
+</html>
