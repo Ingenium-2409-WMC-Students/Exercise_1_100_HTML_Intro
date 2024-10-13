@@ -1,0 +1,26 @@
+.container {
+    width: 500px;
+    margin: auto;
+}
+
+.form {
+    background-color: antiquewhite;
+    padding: 30px;
+}
+
+.form-row {
+    margin-top: 15px;
+}
+
+/* select all labels inside form-row elements
+   the display property is necessary to set the width
+*/
+.form-row label {
+    width: 150px;
+    display: inline-block;
+}
+
+.form-row input,
+.form-row textarea {
+    width: 250px;
+}
